@@ -184,7 +184,7 @@ h1, h2, h3 {
 def load_data():
     # Try to load from uploaded file, otherwise use sample data
     try:
-        df = pd.read_csv("human_eval_long_rated_Final.csv")
+        df = pd.read_csv("human_eval_long_rated_Final_01.csv")
         return df
     except:
         pass
